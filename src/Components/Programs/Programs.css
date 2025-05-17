@@ -31,7 +31,7 @@
     flex-direction: column;
     color: #fff;
     cursor: pointer;
-    opacity: 0;  /* for hide */
+    opacity: 0;  
     padding-top: 70%;
     transition: 0.4s;
 }
@@ -44,4 +44,17 @@
 .program:hover .caption{
     opacity: 1;
     padding-top: 0;
+}
+
+/* media query */
+
+@media (max-width : 650px) {
+    .programs{
+        flex-direction: column;
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+
 }
